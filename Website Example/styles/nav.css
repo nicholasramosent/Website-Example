@@ -1,0 +1,110 @@
+.navigation-wrapper{
+    height: 240px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 100px; */
+    padding: 60px, 100px;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navigation-wrapper > .left-column> .icon i{
+    font-size: 3em;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+    font-size: 1.4em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-wrapper > .contact-hours-wrapper > .phone {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper  > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 1em;
+}
+
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .link-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-wrapper > .nav-link {
+    width: 80px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.link-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #CBCBCB;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-right: 15px;
+}
+.navigation-wrapper > .right-column> .contact-icon i{
+    font-size: 3em;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    margin-right: 15px;
+}
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+}
+
+.nav-wrapper > .left-column > .address-wrapper a:hover {
+    text-size-adjust: 5em;
+}
